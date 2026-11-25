@@ -185,7 +185,7 @@ const MODE_NORMAL = 1, MODE_ENDLESS = 2, MODE_PRACTICE = 3;
 
     function gameInit() {
         createjs.Sound.registerSound({
-            src: "./static/music/err.mp3",
+            src: "./static/music/err.mp3?v=20261126err",
             id: "err"
         });
         createjs.Sound.registerSound({
