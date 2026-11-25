@@ -9,7 +9,7 @@ const MODE_NORMAL = 1, MODE_ENDLESS = 2, MODE_PRACTICE = 3;
 
         function ajax(name, error) {
             $.ajax({
-                url: `./static/i18n/${name}.json`,
+                url: `./static/i18n/${name}.json?v=20261126copy`,
                 dataType: 'json',
                 method: 'GET',
                 async: false,
