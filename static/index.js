@@ -189,7 +189,7 @@ const MODE_NORMAL = 1, MODE_ENDLESS = 2, MODE_PRACTICE = 3;
             id: "err"
         });
         createjs.Sound.registerSound({
-            src: "./static/music/end.mp3",
+            src: "./static/music/end.mp3?v=20261126b",
             id: "end"
         });
         createjs.Sound.registerSound({
