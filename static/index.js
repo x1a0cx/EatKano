@@ -94,8 +94,8 @@ const MODE_NORMAL = 1, MODE_ENDLESS = 2, MODE_PRACTICE = 3;
     }
 
     function getSoundMode() {
-        // 默认为 on
-        return cookie('soundMode') ? cookie('soundMode') : 'on';
+        // 设置界面已隐藏，音效固定开启
+        return 'on';
     }
 
     w.changeSoundMode = function() {
